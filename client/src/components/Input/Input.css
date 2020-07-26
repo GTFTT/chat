@@ -1,0 +1,36 @@
+.input_form {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.input_input {
+    width: 80%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.input_sendBtn {
+    height: 40%;
+    background-color: rgb(21, 255, 0);
+    border-radius: 10px;
+    font-size: 100%;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.input_input:focus, .input_sendBtn:focus{
+    outline: none;
+}
+
+.input_sendBtn:hover {
+    cursor: pointer;
+}

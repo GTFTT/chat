@@ -1,0 +1,39 @@
+.infoBar_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #AAA;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoBar_statusCont{
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.infoBar_roomTxt {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
+    float: left;
+}
+
+.infoBar_onlineIcon {
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.infoBar_leaveCont {
+    margin: 0;
+    padding: 5px;
+}
+
+.infoBar_closeIcon:hover {
+    outline: outset;
+    outline-width: 1px;
+}

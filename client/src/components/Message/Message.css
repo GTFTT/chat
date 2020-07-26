@@ -1,0 +1,33 @@
+.message_container {
+    width: 80%;
+    background-color: grey;
+    border: 1px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: co;
+}
+
+.message_userName {
+    font-size: 10px;
+}
+
+.message_textBox {
+    margin: 4px;
+    overflow: auto;
+}
+
+.message_text {
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+.message_right {
+    float: right;
+    background-color: rgb(75, 170, 233);
+}
+
+.message_left {
+    float: left;
+}

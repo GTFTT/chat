@@ -1,0 +1,54 @@
+.container {
+    box-sizing: border-box;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    font-size: 20px;
+    height: 1000px;
+    margin: 0;
+    padding: 10px;
+}
+
+.nameField {
+    width: 70%;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.roomField {
+    width: 70%;
+    height: 30px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+} 
+
+.button {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border: white solid 2px;
+    border-radius: 10%;
+    padding: 0px;
+    margin: 10px;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    border: black solid 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.btnLink {
+    width: 20%;
+    height: 30px;
+}
+
